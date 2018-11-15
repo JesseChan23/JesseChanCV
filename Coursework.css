@@ -14,13 +14,9 @@ p{
   }
 
   .bg {
-    /* The image used */
+    /* The image */
     background-image: url("https://picsum.photos/1200/1200/?blur");
     background-size:cover;
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
 
 
     background-size: cover;
