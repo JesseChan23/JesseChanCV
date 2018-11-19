@@ -29,7 +29,31 @@ p{
   .contact-form{
   background:grey;
   color:white;
-  margin-top: 20px;
-  padding: 10px;
+  margin-top: 50px;
+  padding: 50px;
 
   }
+
+.projectpage{
+
+  padding-top:50px;
+  padding-bottom:200px;
+}
+
+.bbb{
+
+  /* The image */
+  background:grey;
+  color:white;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.contactImage{
+padding-right: 10px;
+}
+
+.contactbox{
+  padding-bottom: 20px;
+
+}
