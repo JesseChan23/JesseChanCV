@@ -26,12 +26,6 @@ body{
 
 }
 
-.navwid{
-
-width: 1120px;
-
-}
-
 .maincontent{
 
 background-color: #D8D8D8;
@@ -43,7 +37,7 @@ p{
 
 }
 .jumbotron{
-  color:white;
+  color:black;
   background: none;
   }
 
@@ -66,22 +60,13 @@ p{
 .card-title{
 color:black;
 
-
-}
-.navbar-dark{
-
-color:black;
-
 }
 
 
 
 
-.navcolor{
 
-text-decoration-color: black;
 
-}
 
 
 
@@ -89,6 +74,4 @@ text-decoration-color: black;
 
 .card-group{
   padding-top:20px;
-
-
 }
