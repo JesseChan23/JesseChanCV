@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.pad{
+
+  padding:10px;
+  margin-top: 20px;
+
+}
+
+.navfot{
+text-decoration-color: white;
+background-color:#C5D5EA;
+padding:10px;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FFFFEA;
+  background-size:cover;
+
+
+}
+
+.navwid{
+
+width: 1120px;
+
+}
+
+.maincontent{
+
+background-color: #D8D8D8;
+
+}
+p{
+
+  text-decoration-color: white;
+
+}
+.jumbotron{
+  color:white;
+  background: none;
+  }
+
+
+
+.card-text{
+
+  color:black;
+
+}
+
+  }
+
+  hr{
+    background: white;
+  }
+
+
+  }
+.card-title{
+color:black;
+
+
+}
+.navbar-dark{
+
+color:black;
+
+}
+
+
+
+
+.navcolor{
+
+text-decoration-color: black;
+
+}
+
+
+
+
+
+.card-group{
+  padding-top:20px;
+
+
+}

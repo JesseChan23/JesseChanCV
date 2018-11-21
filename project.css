@@ -1,0 +1,14 @@
+.jumbotron{
+  color:black;
+  background: none;
+
+  padding: :40px;
+  margin-top: 20px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 59.15%;
+     z-index: 99999;
+  }
