@@ -1,16 +1,16 @@
-.contact-form{
-color:white;
-margin-top: 20px;
-
-padding: 20px;
-margin-bottom: 20px;
-
+.contact-form {
+  /* Made the color white and adds padding  */
+  /* Watched a youtube video to help with contact page  */
+  color: white;
+  margin-top: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-.contactImage{
-padding-right: 10px;
+.contactImage {
+  padding-right: 10px;
 }
 
-.contactbox{
-  padding:20px;
+.contactbox {
+  padding: 20px;
 }

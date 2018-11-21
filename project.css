@@ -1,4 +1,6 @@
 .jumbotron{
+
+  /* Got rid of default background for jumbo and made the colour black  */
   color:black;
   background: none;
 
@@ -6,6 +8,7 @@
   margin-top: 20px;
   }
 
+  /* Made nav bar sticky so it can move using scroll spy and the nav bar goes infront of picture  */
   .sticky {
     position: fixed;
     top: 0;

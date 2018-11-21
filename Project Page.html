@@ -1,201 +1,169 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Project Page</title>
-  </head>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel='stylesheet' href='MainTemplate.css'>
-        <link rel='stylesheet' href='project.css'>
+
+<head>
+  <meta charset="utf-8">
+  <title>Project Page</title>
+</head>
+
+<!--Bootstrap CSS JAVASCRIPT JQUERY. -->
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel='stylesheet' href='MainTemplate.css'>
+<link rel='stylesheet' href='project.css'>
+
+
+<!--Scroll spy  -->
+
+<body data-spy='scroll' data-target='.navbar' data-offset='50'>
 
 
 
-  <body data-spy='scroll' data-target='.navbar' data-offset='50'>
-
-
-
-        <nav>
-          <div class ="container " >
-           <nav class="navbar navbar-expand-sm navbar-dark  navfot sticky">
-               <img src="3005.png" width="30" height="30" alt="">
-           <button class ="navbar-toggler" data-toggle="collapse" data-target="#menu">
-           <span class ="navbar-toggler-icon"></span>
-           </button>
+  <nav>
+    <div class="container ">
+      <nav class="navbar navbar-expand-sm navbar-dark  navfot sticky">
+        <img src="3005.png" width="30" height="30" alt="">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
 
 
 
-         <div class="collapse navbar-collapse " id="menu">
-                <ul class ="navbar-nav">
+        <div class="collapse navbar-collapse " id="menu">
+          <ul class="navbar-nav">
 
-                 <li class="nav-item">
-                     <a class="nav-link" href="index.html">Home</a>
-                 </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
 
-                 <li class ="nav-item">
-                     <a class="nav-link" href="About.html">About</a>
-                 </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
 
-                 <li class ="nav-item">
-                     <a class="nav-link" href="CVPage.html">CV</a>
-                 </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CVPage.html">CV</a>
+            </li>
 
-                 <li class ="nav-item ">
-                     <a class="nav-link" href="ContactMe.html">Contact</a>
-                 </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="ContactMe.html">Contact</a>
+            </li>
 
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="Project" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="Project" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects
 
-                </a>
+              </a>
 
-                <div class="dropdown-menu" aria-labelledby="Project active">
-                  <a class="dropdown-item" href="#reversi">Reversi</a>
-                  <a class="dropdown-item" href="#website">Website</a>
-                  <a class="dropdown-item" href="#more">Upcoming Projects</a>
-                </div>
+              <div class="dropdown-menu" aria-labelledby="Project active">
+                <a class="dropdown-item" href="#reversi">Reversi</a>
+                <a class="dropdown-item" href="#website">Website</a>
+                <a class="dropdown-item" href="#more">Upcoming Projects</a>
+              </div>
 
 
-              </ul>
+          </ul>
 
-         </div>
-         </nav>
-         </div>
+        </div>
+      </nav>
+    </div>
 
   </nav>
+  <!--If reversi is clicked it will go here same div id  -->
+  <div id="reversi" class="container-fluid bg-sucess ">
 
-<div id="reversi" class="container-fluid bg-sucess ">
+    <div class="jumbotron jumbotron-fluid text-center">
+      <h1 class="display-4"> Reversi </h1>
+    </div>
 
-  <div class="jumbotron jumbotron-fluid text-center">
-    <h1 class="display-4"> Reversi </h1>
-</div>
+    <div class="container maincontent ">
 
-<div class= "container maincontent ">
-
-  <div class ="row">
+      <div class="row">
 
 
-    <div class="col-lg 4" "col-md-4">
+        <div class="col-lg 4" "col-md-4">
 
-<p> Reversi is a project that i'm working on for my first year computer science course.The ojective of this project is to make a complete working game of reversi which will allow the user to either play with another human or an AI. The should be done soon. I'm using java to code my program. </p>
+          <p> Reversi is a project that i'm working on for my first year computer science course.The ojective of this project is to make a complete working game of reversi which will allow the user to either play with another human or an AI. The
+            should be done soon. I'm using java to code my program. </p>
         </div>
 
 
         <div class="col-lg 8" "col-md-8">
 
-    <img src="reversi.PNG" width="400" height="400" alt="Rerversi Board">
+          <img src="reversi.PNG" width="400" height="400" alt="Rerversi Board">
 
 
 
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div id="website" class="container-fluid bg-sucess " >
-
-  <div class="jumbotron jumbotron-fluid  ">
-    <h1 class="display-4 text-center"> Website </h1>
-</div>
-
-
-<div class= "container maincontent ">
-
-
-
-  <div class ="row">
-    <div class="col-lg 4" "col-md-4">
-<p> This website is a project that i'm working on for my first year computer science course.The ojective of this website is to make a complete working CV website using what we have been taught during the lecture and labtime . The should be done well you see this hopefully. </p>
         </div>
 
+      </div>
 
+    </div>
+
+  </div>
+  <!--If website is clicked it will go here same div id  -->
+  <div id="website" class="container-fluid bg-sucess ">
+
+    <div class="jumbotron jumbotron-fluid  ">
+      <h1 class="display-4 text-center"> Website </h1>
+    </div>
+
+    <div class="container maincontent ">
+      <div class="row">
+        <div class="col-lg 4" "col-md-4">
+          <p> This website is a project that i'm working on for my first year computer science course.The ojective of this website is to make a complete working CV website using what we have been taught during the lecture and labtime . The should be
+            done well you see this hopefully. </p>
+        </div>
         <div class="col-lg 8" "col-md-8 ">
-
-
-
-        <div class="projectpage">
-          <img src="https://picsum.photos/400"  alt="Something to do with website">
-
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div id="more" class="container-fluid bg-sucess text-center ">
-  <div class="jumbotron jumbotron-fluid  ">
-    <h1 class="display-4"> Upcoming Projects </h1>
-</div>
-
-
-<div class= "container maincontent ">
-
-  <div class ="row">
-    <div class="col-lg 4" "col-md-4 " >
-
-      <ul>
-
-        <li> Well i don't have any and these are place holders </li>
-        <li> Well i don't have any and these are place holders </li>
-        <li> Well i don't have any and these are place holders </li>
-        <li> Well i don't have any and these are place holders </li>
-
+          <div class="projectpage">
+            <img src="https://picsum.photos/400" alt="Something to do with website">
+          </div>
         </div>
-
-        <div class="col-lg 8" "col-md-8">
-
-
-
-        <div class="projectpage">
-          <img src="Mancode.jpg"  alt="Man coding">
-
-
+      </div>
+    </div>
+    <!--If upcoming is clicked it will go here same div id  -->
+    <div id="more" class="container-fluid bg-sucess text-center ">
+      <div class="jumbotron jumbotron-fluid  ">
+        <h1 class="display-4"> Upcoming Projects </h1>
+      </div>
+      <div class="container maincontent ">
+        <div class="row">
+          <div class="col-lg 4" "col-md-4 ">
+            <ul>
+              <li> Well i don't have any and these are place holders </li>
+              <li> Well i don't have any and these are place holders </li>
+              <li> Well i don't have any and these are place holders </li>
+              <li> Well i don't have any and these are place holders </li>
+          </div>
+          <div class="col-lg 8" "col-md-8">
+            <div class="projectpage">
+              <img src="Mancode.jpg" alt="Man coding">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  </div>
+  <footer class="container text-dark  navfot pad">
+    <div class="row">
+      <div class="col-10">
+        <p>Jesse Chan.</p>
+      </div>
 
+      <div class="col-sm  d-flex flex-row justify-content-between">
+        <a href="https://en-gb.facebook.com/"><i class="fab fa-facebook"></i></a>
+        <a href="https://discordapp.com/"> <i class="fab fa-discord"></i></a>
+        <a href="https://plus.google.com/discover"> <i class="fab fa-google-plus-g"></i></a>
+        <a href="https://twitter.com/"> <i class="fab fa-twitter-square"></i></a>
+      </div>
+    </div>
+    </div>
+  </footer>
 
+</body>
 
-</div>
-
-</div>
-
-</div>
-
-
-
-
-</div>
-
-
-
-
-<footer class="container text-dark  navfot pad">
-  <div class="row">
-  <div class="col-10">
-<p>Jesse Chan.</p>
-</div>
-
-
-<div class="col-sm  d-flex flex-row justify-content-between" >
-<a href="https://en-gb.facebook.com/"><i class="fab fa-facebook"></i></a>
-<a href="https://discordapp.com/"> <i class="fab fa-discord"></i></a>
-<a href="https://plus.google.com/discover">   <i class="fab fa-google-plus-g"></i></a>
-<a href="https://twitter.com/"> <i class="fab fa-twitter-square"></i></a>
-</div>
-</div>
-</div>
-</footer>
-
-
-
-  </body>
 </html>

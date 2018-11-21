@@ -1,77 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-
-.pad{
-
-  padding:10px;
+.pad {
+  padding: 10px;
   margin-top: 20px;
-
 }
 
-.navfot{
-text-decoration-color: white;
-background-color:#C5D5EA;
-padding:10px;
+.navfot {
+  text-decoration-color: white;
+  background-color: #C5D5EA;
+  padding: 10px;
 }
 
 html, body {
-    margin: 0;
-    height: 100%;
+  margin: 0;
+  height: 100%;
 }
-body{
+
+/*Makes the everything in the body that font. */
+body {
   font-family: 'Montserrat', sans-serif;
   background-color: #FFFFEA;
-  background-size:cover;
-
-
+  background-size: cover;
 }
 
-.maincontent{
-
-background-color: #D8D8D8;
-
+.maincontent {
+  background-color: #D8D8D8;
 }
-p{
 
-  text-decoration-color: white;
-
-}
-.jumbotron{
-  color:black;
+.jumbotron {
+  color: black;
   background: none;
-  }
-
-
-
-.card-text{
-
-  color:black;
-
 }
 
-  }
-
-  hr{
-    background: white;
-  }
-
-
-  }
-.card-title{
-color:black;
-
+/*Made card black*/
+.card-text {
+  color: black;
 }
 
 
 
+.card-title {
+  color: black;
+}
 
+/* White line */
+hr {
+  background: white;
+}
 
-
-
-
-
-
-
-.card-group{
-  padding-top:20px;
+.card-group {
+  padding-top: 20px;
 }
